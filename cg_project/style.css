@@ -1,0 +1,85 @@
+body {
+  background-color: black;
+  max-width: 100%;
+  max-length: 100%;
+}
+
+
+h1 {
+font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+font-size: 70px;
+line-height: 29.4px;
+color: white;
+text-align: center;
+letter-spacing: 6px;
+height: 5em;
+display: flex;
+align-items: center;
+justify-content: center;
+position: ;
+  }
+
+#b1 {
+  height: 320px;
+  width: 320px;
+  background: #a10000;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+}
+
+#b2 {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  border: 7px solid #a10000;
+  border-radius: 50%;
+  transition: all .8s ease-out;
+  top: -0px;
+}
+
+#b3 {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  border: 7px solid #a10000;
+  border-radius: 50%;
+  transition: all .8s ease;
+  top: 0px;
+}
+
+#b1:hover #b2 {
+  transform: rotateX(360deg)
+}
+
+#b1:hover #b3 {
+  transform: rotateY(360deg)
+}
+
+#b1:hover {
+  background: transparent;
+  box-shadow: 0 0 50px rgba(0, 0, 0, .7) inset;
+}
+
+#b1:hover a {
+  color: #a10000;
+}
+
+#b1 a {
+  font-family: Avant Garde,Avantgarde,Century     Gothic,CenturyGothic,AppleGothic,sans-serif; 
+  font-size: 70px;
+  color: #fff;
+  line-height: 300px;
+  text-decoration: none;
+  transition: all .8s ease;
+  text-transform: uppercase;
+}
+
+.normal {
+  padding:8px;
+  margin:8px; 
+}
+
+span .b1 {
+  margin: 8px;
+}
